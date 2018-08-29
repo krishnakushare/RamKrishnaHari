@@ -6,7 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 // import { CookieService } from 'ngx-cookie-service';
-
+import {map, catchError} from 'rxjs/operators';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
